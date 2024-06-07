@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Charlotte Michigan</title>
+	
+	
+	
+	
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href=" About.html.css" rel="stylesheet" type="text/css">
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+	<script src='jquery.zoom.js'></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#ex1').zoom();			 
+		});
+	</script>
+	
+	
+
+	
+			<style>
+
+		.zoom {
+			display:inline-block;
+			position: relative;
+		}
+		
+		/* magnifying glass icon */
+		.zoom:after {
+			content:'';
+			display:block; 
+			width:33px; 
+			height:33px; 
+			position:absolute; 
+			top:0;
+			right:0;
+			background:url(icon.png);
+		}
+
+		.zoom img {
+			display: block;
+		}
+
+		.zoom img::selection { background-color: transparent; }
+
+		#ex2 img:hover { cursor: url(grab.cur), default; }
+		#ex2 img:active { cursor: url(grabbed.cur), default; }
+	</style>
+		
+
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="primary_header"><h1 class="title">Charlotte Michigan </h1>
+    </div>
+    <nav class="secondary_header" id="menu">
+      <ul>
+		  <li class="navig"><a href="index.html" id="selected">Home</a></li>
+		  <li class="navig"><a href="About.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <h2 class="noDisplay">Main Content</h2>
+    <article class="left_article">
+      <h3>History</h3>
+      <p>Originally known as Eaton Center or Carmel, Charlotte was incorporated as a village on October 12, 1863 and the first election was held on March 1, 1864. A City charter was granted by the Michigan legislature on March 29, 1871.<br>
+        <br>
+      Since July 1, 1962, Charlotte has operated under the&nbsp;council-manager form of government. This government structure divides policy making and administrative functions between the city council and the city manager with the council responsible for the former and the manger responsible for the latter.</p>
+</article>
+<section>
+
+
+    <span class='zoom' id="ex1">
+    	<img src='Images/73954619f315985af3aa7593b0908b77.jpg'  width="448" height="294" alt='Images/73954619f315985af3aa7593b0908b77.jpg'/>
+    </span>
+    
+
+    <aside class="right_article"></aside>
+  </section>
+  <div class="row">
+    <div class="columns">
+      <p class="thumbnail_align"> <img src="Images/Charlotte-Public-Schools_MAIN.jpg" alt="" class="thumbnail"/> </p>
+      <h4>Charlotte Performing Arts Center (CPAC)</h4>
+      <p style="text-align: center; color: black;">Rent out the theatre or come and enjoy a local show. The Charlotte Perfomin Arts Center is a complete professional performing theatre. </p>
+      <p>&nbsp;</p>
+    </div>
+    <div class="columns">
+      <p class="thumbnail_align"> <img src="Images/Rodeo-2015.jpg" alt="" class="thumbnail"/> </p>
+      <h4>Home of Frontier Days</h4>
+      <p>Come celebrate with us every year in September! Enjoy the Rodeo, food, and later the Saloon, with line-dancing and great country music.</p>
+    </div>
+    <div class="columns">
+      <p class="thumbnail_align"> <img src="Images/oriole_bird.png" alt="" width="127" height="81" class="thumbnail"/> </p>
+      <h4>Go Orioles!</h4>
+      <p>Charlotte Public Schools is pleased to announce the formation of the Charlotte Early Middle College. Designed to provide all students opportunities to prepare for college and careers. </p>
+</div>
+    <div class="columns">
+      <p class="thumbnail_align"> <img src="Images/1200px-County_Courthouse_Museum_Charlotte.jpg" alt="" class="thumbnail"/> </p>
+      <h4>Eaton County Museum </h4>
+      <p>In 1883, the Courthouse cornerstone was placed in the center of town square where it remains today. In 1885 the courthouse officially opened to the public. &nbsp;The courthouse was operational for 10 years before a fire gutted much of the inside. </p>
+</div>
+  </div>
+  <div class="row blockDisplay"></div>
+  <div class="social">
+    <p class="social_icon">&nbsp;</p>
+    <p class="social_icon">&nbsp;</p>
+    <p class="social_icon">&nbsp;</p>
+    <p class="social_icon">&nbsp;</p>
+  </div>
+  <footer class="secondary_header footer">
+    <div class="copyright">&copy;2018 - <strong>Taylir baum</strong></div>
+  </footer>
+</div>
+</body>
+</html>
+
